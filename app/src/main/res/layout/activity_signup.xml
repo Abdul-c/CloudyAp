@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="45dp"
+    tools:context=".signup">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cloudyappblack" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edittext_stroke"
+        android:focusedByDefault="false"
+        android:gravity="left|center_vertical"
+        android:hint="Name"
+        android:paddingLeft="20dp"
+        android:textColor="#070707"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_stroke"
+        android:focusedByDefault="false"
+        android:gravity="left|center_vertical"
+        android:hint="Full name"
+        android:paddingLeft="20dp"
+        android:textColor="#0A0A0A"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginVertical="8dp"
+        android:background="@drawable/edittext_stroke"
+        android:focusedByDefault="false"
+        android:gravity="left|center_vertical"
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        android:textColor="#090808" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_stroke"
+        android:focusedByDefault="false"
+        android:gravity="left|center_vertical"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textAllCaps="false"
+        android:textColor="#090808" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginVertical="8dp"
+        android:background="#2196F3"
+        android:text="sign up"
+        android:textAllCaps="false"
+        android:textColor="#d0ffffff"
+        android:textSize="17sp"
+        app:backgroundTint="#03A9F4" />
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1032988685242",
+    "project_id": "cloudyap-f49d7",
+    "storage_bucket": "cloudyap-f49d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032988685242:android:8d725859bbf4512d69e383",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032988685242-dl60okrb3cnu9eptoapq5u4pvf1ubsm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEdA3gggwjIgmBsUTISFFP_r6nQ1pMCvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032988685242-dl60okrb3cnu9eptoapq5u4pvf1ubsm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
